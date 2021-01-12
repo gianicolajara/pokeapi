@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+        <div class="card__list"></div>
+        <div class="arrows">
+            <a href="#" class="previous">⏪</a>
+            <a href="#" class="next">⏩</a>
+            
+        </div>
+    </main>
+
+    <template id="template-card">
+        <div class="card">
+            <div class="card__head">
+                <figure>
+                    <img>
+                </figure>
+                <h1 class="card__title"></h1>
+            </div>
+            <div class="card__body">
+                <p class="card__description"></p>
+            </div>
+        </div>
+    </template>
+    
+    <script src="./scripts/scripts.js" type="module"></script>
+</body>
+</html>
